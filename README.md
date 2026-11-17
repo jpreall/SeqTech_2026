@@ -78,7 +78,7 @@ python -m ipykernel install --user \
     --display-name "Scanpy SeqTech 2026"
 ```
 
-**Launch Jupyter lab from the base environment  
+**Launch Jupyter lab from the base environment**   
 This is good practice: make many environments for your various projects, and pick the appropriate one for your project from Jupyter Lab hosted from your base environment.
 ```
 source deactivate
