@@ -72,6 +72,12 @@ python -m pip install \
     jupyterlab \
     ipykernel
 
+conda deactivate
+python -m ipykernel install --user \
+    --name scanpy \
+    --display-name "Scanpy SeqTech 2026"
+
+jupyter lab
 ```
 **Fetch scRNA data**
 ```
