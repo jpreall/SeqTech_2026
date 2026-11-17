@@ -72,11 +72,16 @@ python -m pip install \
     jupyterlab \
     ipykernel
 
-source deactivate
+#Make our new environment visible inside of Jupyter Lab
 python -m ipykernel install --user \
     --name scanpy \
     --display-name "Scanpy SeqTech 2026"
+```
 
+**Launch Jupyter lab from the base environment
+This is good practice: make many environments for your various projects, and pick the appropriate one for your project from Jupyter Lab hosted from your base environment.
+```
+source deactivate
 jupyter lab
 ```
 **Fetch scRNA data**
