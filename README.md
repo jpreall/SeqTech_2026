@@ -60,7 +60,7 @@ Note the `token=` part changes every time you launch jupyter lab, just like your
 **Install a fresh environment**
 ```
 conda create -n scanpy_workshop python=3.13 pip -y
-conda activate scanpy_workshop
+source activate scanpy_workshop
 python -m pip install \
     'scanpy[leiden]' \
     gprofiler-official \
