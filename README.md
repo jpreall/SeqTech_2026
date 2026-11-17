@@ -72,7 +72,7 @@ python -m pip install \
     jupyterlab \
     ipykernel
 
-conda deactivate
+source deactivate
 python -m ipykernel install --user \
     --name scanpy \
     --display-name "Scanpy SeqTech 2026"
