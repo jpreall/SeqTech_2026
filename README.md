@@ -59,8 +59,8 @@ Note the `token=` part changes every time you launch jupyter lab, just like your
 
 **Install a fresh environment**
 ```
-conda create -n scanpy python=3.13 pip -y
-conda activate scanpy
+conda create -n scanpy_workshop python=3.13 pip -y
+conda activate scanpy_workshop
 python -m pip install \
     'scanpy[leiden,scrublet]==1.13.0' \
     gprofiler-official \
@@ -74,7 +74,7 @@ python -m pip install \
 
 #Make our new environment visible inside of Jupyter Lab
 python -m ipykernel install --user \
-    --name scanpy \
+    --name scanpy_workshop \
     --display-name "Scanpy SeqTech 2026"
 ```
 
