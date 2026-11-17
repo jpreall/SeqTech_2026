@@ -56,6 +56,23 @@ Note the `token=` part changes every time you launch jupyter lab, just like your
 ## 11/9 9:00 - 10:30am: Intro to Pandas and Data Visualization
 
 ## 11/19 10:45 - 12:00pm: Loading Single Cell Datasets
+
+**Install a fresh environment**
+```
+conda create -n scanpy python=3.13 pip -y
+conda activate scanpy
+python -m pip install \
+    'scanpy[leiden,scrublet]==1.13.0' \
+    gprofiler-official \
+    celltypist \
+    ipywidgets \
+    gseapy \
+    matplotlib-venn \
+    scrublet \
+    jupyterlab \
+    ipykernel
+
+```
 **Fetch scRNA data**
 ```
 cd /workspace/
