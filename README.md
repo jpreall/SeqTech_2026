@@ -62,7 +62,7 @@ Note the `token=` part changes every time you launch jupyter lab, just like your
 conda create -n scanpy_workshop python=3.13 pip -y
 conda activate scanpy_workshop
 python -m pip install \
-    'scanpy[leiden,scrublet]==1.13.0' \
+    'scanpy[leiden]' \
     gprofiler-official \
     celltypist \
     ipywidgets \
@@ -71,8 +71,11 @@ python -m pip install \
     scrublet \
     jupyterlab \
     ipykernel
-
-#Make our new environment visible inside of Jupyter Lab
+```
+  
+Make our new environment visible inside of Jupyter Lab  
+  
+```
 python -m ipykernel install --user \
     --name scanpy_workshop \
     --display-name "Scanpy SeqTech 2026"
