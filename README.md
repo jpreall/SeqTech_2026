@@ -16,6 +16,12 @@ AWSIP=52.91.79.220
 PEM=cshl_2026_student.pem
 ssh -i $PEM ubuntu@$AWSIP
 ```
+**Create a swapfile**
+```
+wget http://52.91.79.220/create_swapfile.sh
+chmod s+x create_swapfile.sh
+./create_swapfile.sh
+```
 
 **Fetch my notebook**
 ```
