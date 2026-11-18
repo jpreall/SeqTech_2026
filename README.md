@@ -16,12 +16,6 @@ AWSIP=52.91.79.220
 PEM=cshl_2026_student.pem
 ssh -i $PEM ubuntu@$AWSIP
 ```
-**Create a swapfile**
-```
-wget http://52.91.79.220/create_swapfile.sh
-chmod a+x create_swapfile.sh
-./create_swapfile.sh
-```
 
 **Fetch my notebook**
 ```
@@ -62,6 +56,13 @@ Note the `token=` part changes every time you launch jupyter lab, just like your
 ## 11/9 9:00 - 10:30am: Intro to Pandas and Data Visualization
 
 ## 11/19 10:45 - 12:00pm: Loading Single Cell Datasets
+
+**Create a swapfile**
+```
+wget http://52.91.79.220/create_swapfile.sh
+chmod a+x create_swapfile.sh
+./create_swapfile.sh
+```
 
 **Install a fresh environment**
 ```
