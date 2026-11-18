@@ -39,7 +39,7 @@ if [[ ! -e "$SWAPFILE" ]]; then
     echo "Creating $SWAPSIZE swap file..."
 
     AVAILABLE=$(df -B1 --output=avail "$SWAPDIR" | tail -1)
-    REQUIRED=$((16 * 1024 * 1024 * 1024))
+    REQUIRED=$((32 * 1024 * 1024 * 1024))
 
     if (( AVAILABLE < REQUIRED )); then
         echo "ERROR: Insufficient disk space."
