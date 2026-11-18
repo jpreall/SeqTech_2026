@@ -19,7 +19,7 @@ ssh -i $PEM ubuntu@$AWSIP
 
 **Fetch my notebook**
 ```
-wget http://52.91.79.220/python_basics_walkthrough.ipynb
+wget http://52.91.79.220/singlecell/python_basics_walkthrough.ipynb
 ```
 
 **Start Jupyter Lab**
