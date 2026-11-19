@@ -97,10 +97,11 @@ jupyter lab
 **Fetch scRNA data**
 ```
 cd /workspace/
-wget http://3.91.91.117/scRNAseq/pbmc.tar
-tar -xvf pbmc.tar
+wget http://52.91.79.220/singlecell/PBMC/pbmc.tar.gz
+tar -xvfz pbmc.tar.gz
 
-wget http://3.91.91.117/scRNAseq/unprocessed_qced.h5ad
+
+wget http://52.91.79.220/singlecell/PBMC/unprocessed_qced.h5ad
 ```
 
 ## 11/19 2:00-5:30pm: Scanpy Lab
