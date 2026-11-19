@@ -5,7 +5,7 @@ Research Professor @ CSHL
 
 ## Lecture Slides
 [11/9: Single Cell Sequencing](https://www.dropbox.com/scl/fi/gfilav05fpyxfr5wzni7y/Preall_SeqTech_2026.pptx?rlkey=ffe9v18875uojispl1cr631s7&dl=0) (138MB .pptx file)  
-[11/18: Intro to scRNA-seq Analysis](https://www.dropbox.com/scl/fi/hq2zpm0cuoi374p0divei/Intro_to_scRNAseq_2026.pptx?rlkey=mpnnufj8fm7oyfbryoqc506cx&dl=0) (36MB .pptx file)
+[11/18: Intro to scRNA-seq Analysis](https://www.dropbox.com/scl/fi/5g296s39v6hqeb7f6rogh/Intro_to_scRNAseq_2026.pptx?rlkey=zypsxvvhrsm9mnxvlaotbgahx&dl=0) (36MB .pptx file)
 
 
 ## 11/18: Intro to Python (3:15am - 5:30pm)
