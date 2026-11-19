@@ -61,7 +61,7 @@ Note the `token=` part changes every time you launch jupyter lab, just like your
 ```
 wget http://52.91.79.220/create_swapfile.sh
 chmod a+x create_swapfile.sh
-./create_swapfile.sh
+sudo bash create_swapfile.sh
 ```
 
 **Install a fresh environment**
